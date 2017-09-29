@@ -1,0 +1,160 @@
+
+ROM used:   12288/131064 (9%)
+            12288/131064 (9%) including unused fragments
+
+            2.3 Average locations per line
+            6.5 Average locations per statement
+
+RAM used:   271/3712 (7%) at main() level
+            303/3712 (8%) worst case
+
+Stack used: 5 worst case (4 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 2190  1255  66  rr2_USB_Monitor.c
+  904     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F97J60.h
+   93    29   2  25LC1024.c
+  144    53   3  MK41T56.c
+ 1352   359  19  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129   7  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+  243    71   4  flex_lcd.c
+----- -----
+ 5421  1896 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   0    1             @delay_ms1
+0     10   0    0             @PUTCHARI_BIU_1
+0     26   0    0             @GETCH_BIU_1
+0     28   0    1             @I2C_WRITEU_1
+0     28   0    1             @I2C_READU_1
+0     50   0    1    174  3.1  ext_eeprom_ready
+0    116   0   10    328  3.3  write_ext_eeprom
+0     98   0   10    265  3.7  read_ext_eeprom
+0    176   1    8    616  2.7  mk41t56_set_date_time
+ Inline         5    383  3.1  mk41t56_get_date
+ Inline         4    315  3.0  mk41t56_get_time
+0     40   0    3    240  6.0  bin2bcd
+0     42   0    3    203  5.3  bcd2bin
+0     34   0    5             @MUL1616
+0    120   0    2    527  6.2  trata_INT_RDA2
+0    320   1    0   1581  5.9  trata_t0
+0     38   0    3    112  3.2  delay_seg
+0     48   0    1    305  3.3  ImprimeMSGRS232
+0    582   2   15   2343  7.7  trata_msgAtoI
+0   3078  13    8   8460  7.5  trata_buffer
+0     34   0    0             @const1197
+0     44   0    3             @PSTRINGC_19200_31793_31794
+0     38   0    0             @const1202
+0     32   0    0             @const1203
+0     52   0    4             @PSTRINGCN_19200_31793_31794
+0     44   0    3             @DIV88
+0    132   1    2             @PRINTF_U_19200_31793_31794
+0     32   0    0             @const1212
+0     30   0    0             @const1213
+0     32   0    0             @const1214
+0     34   0    0             @const1215
+0     32   0    0             @const1216
+0     34   0    0             @const1217
+0     34   0    0             @const1218
+0     32   0    0             @const1219
+0     36   0    0             @const1220
+0     36   0    0             @const1221
+0     36   0    0             @const1222
+0     36   0    0             @const1223
+0     36   0    0             @const1224
+0     36   0    0             @const1225
+0     26   0    0             @const1226
+0     22   0    0             @const1227
+0     20   0    0             @const1228
+0     28   0    0             @const1229
+0     26   0    0             @const1230
+0     40   0    2             @PSTRINGR_19200_31793_31794
+0     10   0    0             @const1235
+0     12   0    0             @const1236
+0     10   0    0             @const1237
+0     16   0    0             @const1238
+0     10   0    0             @const1239
+0     12   0    0             @const1240
+0     12   0    0             @const1241
+0    166   1    0             @goto53360
+0   2406  10    0  22787  6.9  LER_ENTRADAS
+0     16   0    0             @const1244
+0     18   0    0             @const1245
+0     16   0    0             @const1246
+0     16   0    0             @const1247
+0     16   0    0             @const1248
+0     16   0    0             @const1249
+0     16   0    0             @const1250
+0     16   0    0             @const1251
+0     16   0    0             @const1252
+0     16   0    0             @const1253
+0     16   0    0             @const1254
+0     16   0    0             @const1255
+0     16   0    0             @const1256
+0     16   0    0             @const1257
+0     16   0    0             @const1258
+0     16   0    0             @const1259
+0     16   0    0             @const1260
+0     16   0    0             @const1261
+0     16   0    0             @const1262
+0     18   0    0             @const1263
+0     16   0    0             @const1264
+0     18   0    0             @const1265
+0     16   0    0             @const1266
+0     18   0    0             @const1267
+0     16   0    0             @const1268
+0     18   0    0             @const1269
+0     16   0    0             @const1270
+0     18   0    0             @const1271
+0     16   0    0             @const1272
+0     18   0    0             @const1273
+0     16   0    0             @const1274
+0     18   0    0             @const1275
+0     98   0    3    732  4.5  EstadoGrupos
+0   2446  10   13  15657 13.1  MAIN
+0     30   0    0             @const1338
+0     10   0    0             @const1339
+0     60   0    0             @const1340
+0     24   0    0             @const1341
+0     30   0    0             @const1342
+0     18   0    0             @const1343
+0     40   0    0             @const1344
+0     24   0    0             @const1345
+0     22   0    0             @const1346
+0     28   0    0             @const1347
+0     22   0    0             @const1348
+0     28   0    0             @const1349
+0     50   0    0             @goto54744
+0     26   0    0             @const1351
+0     26   0    0             @const1352
+0     18   0    0             @const1353
+0     18   0    0             @const1354
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              1896
+    Comments                1975
+    Volume (V)              72071
+    Difficulty (D)          87.4
+    Effort to implement (E) 6299193
+    Time to implement (T)   97 hours, 13 minutes
+    Est Delivered Bugs (B)  11
+    Cyclomatic Complexity   356
+    Maintainability (MI)    5
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C8   194  0  
+000CA-0FFFE  12090  53244  
+10000-1FFF6     0  65528  
+
+
+

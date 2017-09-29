@@ -1,0 +1,85 @@
+[PROJECT]
+Target=rr2_USB_Monitor.hex
+Processor_Text=PIC18F97J60
+CCSVersion=5.073
+Compiler=PCH
+[Target Data]
+FileList=rr2_USB_Monitor.c
+[rr2_USB_Monitor.c]
+Type=4
+[mru-list]
+1=rr2_USB_Monitor.c
+
+[defines]
+buildcount=9
+
+[ProjectLog]
+Days=4
+D1=25-05-2017
+D1_L=8
+D1_L1=[35781]Stopped Editing.
+D1_L2=[41674]Started Editing.
+D1_L3=[42009]Stopped Editing.
+D1_L4=[45600]Started Editing.
+D1_L5=[45901]Stopped Editing.
+D1_L6=[53102]Started Editing.
+D1_L7=[53412]Stopped Editing.
+TotalEdit=27
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L8=[62055]Project Closed.
+D2=01-06-2017
+D2_L=14
+D2_L1=[64402]Project Opened.
+D2_L2=[64456]Started Editing.
+D2_L3=[65416]Stopped Editing.
+D2_L4=[66453]Started Editing.
+D2_L5=[66877]Stopped Editing.
+D2_L6=[67602]Started Editing.
+D2_L7=[67911]Stopped Editing.
+D2_L8=[70184]Started Editing.
+D2_L9=[70484]Stopped Editing.
+D2_L10=[70530]Started Editing.
+D2_L11=[70830]Stopped Editing.
+D2_L12=[70859]Started Editing.
+D2_L13=[71231]Stopped Editing.
+D2_E=20
+D2_D=0
+D2_L14=[71231]Project Closed.
+D3=12-09-2017
+D3_L=21
+D3_L1=[34642]Project Opened.
+D3_L2=[34673]Started Editing.
+D3_L3=[34735]Stopped Editing.
+D3_E=3
+D3_D=0
+D3_L4=[34735]Project Closed.
+D3_L5=[34759]Project Opened.
+D3_L6=[34767]Project Closed.
+D3_L7=[34779]Project Opened.
+D3_L8=[34812]Project Closed.
+D3_L9=[38655]Project Opened.
+D3_L10=[38771]Started Editing.
+D3_L11=[38819]Stopped Editing.
+D3_L12=[38827]Project Closed.
+D3_L13=[38836]Project Opened.
+D3_L14=[38850]Project Opened.
+D3_L15=[38866]Project Closed.
+D3_L16=[38941]Project Opened.
+D3_L17=[38947]Project Closed.
+D3_L18=[41659]Project Opened.
+D3_L19=[42911]Started Editing.
+D3_L20=[43218]Stopped Editing.
+D3_L21=[43267]Started Editing.
+D4=29-09-2017
+D4_L=1
+D4_L1=[35263]Project Opened.
+
+[Opened Files]
+1=rr2_USB_Monitor.c
+t1=1754
+Count=1
+[Units]
+Count=1
+1=rr2_USB_Monitor (main)
